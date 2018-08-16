@@ -1,0 +1,22 @@
+{
+    "name": "paybear/module-cryptocurrency",
+    "description": "",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "gikach@gmail.com",
+            "name": "PayBear"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Paybear\\Cryptocurrency\\": ""
+        }
+    }
+}
